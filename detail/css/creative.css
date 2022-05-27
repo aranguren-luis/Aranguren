@@ -1,0 +1,261 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Sawarabi Gothic";
+}
+hr {
+  border-color: #006ABA;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #006ABA;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Mplus 1p';
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.bg-primary {
+  background-color: #5F6364;
+}
+.bg-secondary {
+  background-color: #F2D8C4;
+}
+.bg-dark {
+  background-color: #222222;
+  color: white;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+.text-dark {
+  color: gray;
+}
+.text-white {
+  color: white;
+}
+section {
+  padding: 100px 0;
+}
+aside {
+  padding: 50px 0;
+}
+.no-padding {
+  padding: 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+.call-to-action h2 {
+  margin: 0 auto 20px;
+}
+.text-primary {
+  color: #006ABA;
+}
+.text-secondary {
+  color: #F2D8C4;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-default {
+  color: #222222;
+  background-color: white;
+  border-color: white;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: white;
+  background-color: red;
+  border-color: #ededed;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: white;
+  border-color: white;
+}
+.btn-default .badge {
+  color: white;
+  background-color: #222222;
+}
+.btn-primary {
+  color: white;
+  background-color: #e276aa;
+  border-color: #006ABA;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #ee4b28;
+  border-color: #ed431f;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #FEF7EA;
+  border-color: #006ABA;
+}
+.btn-primary .badge {
+  color: #FEF7EA;
+  background-color: #FEF7EA;
+}
+.btn {
+  border: none;
+  border-radius: 300px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding: 10px 25px;
+  font-size: 1.3em;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
+.mb-5 {
+  margin-bottom: 50px;
+}
+.mb-3 {
+  margin-bottom: 25px;
+}
+.mt-3 {
+  margin-top: 25px;
+}
+.w-100 {
+  width: 100%;
+}
+.y-100 {
+  height: 100%;
+}
+.wf-mplus1p {
+  font-family: "Mplus 1p";
+}
+.wf-hannari {
+  font-family: "Hannari";
+}
+.wf-nicomoji {
+  font-family: "Nico Moji";
+}
+.wf-sawarabimincho {
+  font-family: "Sawarabi Mincho";
+}
+.wf-roundedmplus1c {
+  font-family: "Rounded Mplus 1c";
+}
+.wf-sawarabigothic {
+  font-family: "Sawarabi Gothic";
+}
+@media (max-width: 768px) {
+.popup-image {
+  width: 100% !important;
+}
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+th {
+  font-weight: 200;
+ }
